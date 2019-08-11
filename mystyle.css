@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head> <title>MyStyles </title>
+
+<style>
+
+body {
+    background-color: white;
+}
+
+
+header, footer {
+    background-color: darkcyan;
+    color: darkorange;
+    border: 5px solid red;
+font-family:'Source Code Pro', monospace;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+p, table, form{
+    font-family:'Comic Sans MS'
+}
+
+th, tr:nth-child(even)
+	{
+		background-color: slategrey;
+		color:darkorange;
+	}
+
+nav a {
+    background-color: #546a7b;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    display: block;
+    margin: 20px 20px;
+    width: 100px;
+    
+    }
+}
+
+
+
+a {
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+  font-weight: none;
+  
+
+}
+
+a:link {
+  color: indianred;
+}
+
+a:visited {
+  color: darkorange;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00c;
+  font-family: cursive;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
